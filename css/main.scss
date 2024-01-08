@@ -32,6 +32,7 @@ img {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+    background-color: #106c971a;
 }
 
 a,
@@ -70,6 +71,9 @@ button {
 .section_title {
     font-weight: bolder;
     font-size: 35px;
+    background-color: #106c97c7;
+    padding: 5px;
+    color: white;
 }
 
 /* header style css */
@@ -496,6 +500,7 @@ button {
             .divers_content {
                 display: flex !important;
                 flex-direction: column !important;
+                gap: 20px;
 
                 /* divers part styles css */
                 .interet_part {
@@ -1060,6 +1065,7 @@ button {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                gap: 50px;
 
                 /* divers part styles css */
                 .interet_part {

@@ -31,6 +31,7 @@ img {
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
+  background-color: rgba(16, 108, 151, 0.1019607843);
 }
 
 a,
@@ -69,6 +70,9 @@ button {
 .section_title {
   font-weight: bolder;
   font-size: 35px;
+  background-color: rgba(16, 108, 151, 0.7803921569);
+  padding: 5px;
+  color: white;
 }
 
 /* header style css */
@@ -368,6 +372,7 @@ button {
   .divers-section .divers_container .divers_content {
     display: flex !important;
     flex-direction: column !important;
+    gap: 20px;
     /* divers part styles css */
   }
   .divers-section .divers_container .divers_content .interet_part .contents .child {
@@ -748,6 +753,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 50px;
     /* divers part styles css */
     /* langage style css */
   }
