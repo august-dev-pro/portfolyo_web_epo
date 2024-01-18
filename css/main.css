@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500;600;700;800;900&display=swap");
 html,
 body,
 div,
@@ -29,9 +29,9 @@ img {
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
-  background-color: rgba(16, 108, 151, 0.1450980392);
+  background-color: #fff;
+  font-family: "Kanit", sans-serif !important;
 }
 
 a,
@@ -164,7 +164,7 @@ button {
 }
 .experience-section .experience_container .experience_content .experiences .child .experience_date {
   display: flex;
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 20px;
 }
 .experience-section .experience_container .experience_content .experiences .child .experience_date::after {
@@ -182,7 +182,7 @@ button {
   display: flex;
   gap: 50px;
   font-size: 23px;
-  font-weight: bolder;
+  font-weight: 700;
 }
 .experience-section .experience_container .experience_content .experiences .child .experience_description .note {
   font-weight: 700;
@@ -354,6 +354,7 @@ button {
   .header .header_container .header_content .profil .profil_description .works {
     font-size: 17px;
     color: #ff1100;
+    font-weight: 600 !important;
   }
   .header .header_container .header_content .contact {
     gap: 5px;
@@ -377,6 +378,14 @@ button {
   }
   .divers-section .divers_container .divers_content .interet_part .contents .child {
     padding: 10px 0 !important;
+  }
+  /* experience section style css */
+  .experience-section .experience_container .experience_content .experiences .child .experience_description .contents {
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    display: flex;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
   }
 }
 @media (max-width: 650px) {
@@ -728,6 +737,7 @@ button {
     gap: 8px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.7803921569);
+    font-weight: 600;
   }
   /* parcours style css */
   .parcours-section .parcours_container .parcours_content .parcours {
